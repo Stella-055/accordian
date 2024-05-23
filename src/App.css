@@ -1,0 +1,41 @@
+
+.wrapper{
+ width: 500px;
+  border: 2px solid black;
+  display: block;
+  
+  
+}
+.outerwrap{
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+} 
+button{ margin-bottom: 10px;
+  
+}
+.sectionone{
+  background-color: rgb(255, 166, 0);
+  border: 2 px solid black;
+  color: white;
+  display: flex;
+ justify-content: space-around;
+ cursor: pointer;
+ align-items: center;
+}
+.sectionone h1{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectiontwo{
+  background-color: rgb(255, 166, 0); 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+.sectiontwo h1{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
